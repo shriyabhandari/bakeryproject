@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container1{
+     height: 120vh;
+     width: 100%;
+     background-image: url(📚.jpg);
+     background-position: center;
+     background-size: cover ;
+     position: relative;
+     background-attachment: fixed;
+}
+.h1{
+    position: absolute;
+    top: 25vh;
+    left: 8vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    line-height: 80px;
+    color: white;
+    font-weight: bold;
+}
+.container1 p{
+    width: 50%;
+    position: absolute;
+    top: 40vh;
+    left: 8vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.15rem;
+    letter-spacing: 12px;
+    line-height: 25px;
+    font-weight: 500;
+}
+header{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding: 35px;
+    background-color: rgb(154, 83, 32);
+    top: 0;
+    height: 9vh;
+    align-items: center;
+    z-index: 5;
+}
+
+.title{
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: rosybrown;
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+}
+
+.menu li{
+    list-style: none;
+    color: gold;
+}
+.menu a{
+    text-decoration: none;
+}
+.button1{
+     padding: 12px 25px;
+     color: blueviolet;
+     border-radius: 30px;
+     font-size: 1em;
+     font-weight: bold;
+     border: 0;
+}
+.button1:hover{
+       background-color: rgb(116, 129, 154)
+}
+
